@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import streamlit as st
 
 def plot_rgb_color(r, g, b, plot_size=1):
     color = [r / 255.0, g / 255.0, b / 255.0]  # Normalize RGB values to the range [0, 1]
